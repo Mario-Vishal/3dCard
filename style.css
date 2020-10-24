@@ -1,0 +1,99 @@
+body{
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* position: relative; */
+    perspective: 1000px;
+}
+
+
+.card {
+    transform-style: preserve-3d;
+    /* background-color: rgb(251, 254, 255); */
+    width: 25rem;
+    min-height: 80vh;
+    min-width: 25rem;
+    text-align: center;
+    border-radius: 0.5em;
+    
+    box-shadow: 0.5px 0.3px 20px black;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.info_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(68, 65, 65);
+    z-index: 1;
+}
+
+
+.throne {
+    width: 15rem;
+    opacity: 0.7;
+}
+
+.throne-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.got_name {
+    width: 3rem;
+    position: absolute;
+    /* display: flex;
+    align-items: center; */
+    z-index: 2;
+    left: 3rem;
+    
+
+}
+
+.got_logo {
+    width: 20rem;
+}
+
+.btn {
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.3rem;
+    margin: 0.7em;
+    font-family: 'Poppins';
+    /* width: 7rem; */
+    font-weight: bold;
+    /* box-shadow: 0.5px 0.3px 5px gray; */
+   
+}
+
+
+
+.git {
+    width: 3.5rem;
+    position: absolute;
+    right: 1rem;
+    bottom:1rem;
+}
+
+.github {
+    padding: 2rem;
+}
+
+
+
+
+
+
+
